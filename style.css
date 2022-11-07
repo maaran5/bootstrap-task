@@ -1,0 +1,335 @@
+#mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    background-color: #2c3e50;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#mainNav .navbar-brand {
+    color: #fff;
+    font-size: 1.75em;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: #1abc9c !important;
+}
+
+.nav-link:active {
+    color: #1abc9c !important;
+}
+
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: #06090b;
+}
+
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.avatarimg {
+    width: 15rem;
+    margin-bottom: 3rem;
+    margin-top: 13rem;
+
+}
+
+.heading-1 {
+    color: #fff;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+}
+
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-custom.divider-light .divider-custom-line {
+    background-color: #fff;
+}
+
+.divider-custom .divider-custom-line:first-child {
+    margin-right: 1rem;
+}
+
+.divider-light .divider-custom-icon {
+    color: #fff;
+}
+
+.divider-custom .divider-custom-icon {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+    border-color: #2c3e50;
+    margin-left: 14px;
+}
+
+.divider-light .divider-custom-icon2 {
+    color: #06090b;
+}
+
+.divider-custom .divider-custom-icon2 {
+    color: #06090b;
+    font-size: 2rem;
+}
+
+.divider-light .divider-custom-icon3 {
+    color: #06090b
+}
+
+.divider-custom .divider-custom-icon3 {
+    color: #06090b;
+    font-size: 2rem;
+}
+
+.heading-2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.headingg {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: #06090b;
+    padding-top: 120px;
+}
+
+.heading-4 {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: black;
+    padding-top: 120px;
+}
+
+.heading-5 {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: black;
+    padding-top: 120px;
+}
+
+.downloadfree {
+    padding-bottom: 6rem;
+}
+
+.lead {
+    justify-content: center;
+    color: #fff;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-1 {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 6rem;
+    background-color: #1abc9c;
+}
+
+.portfolioitem {
+    width: 100%;
+    background-color: #fff;
+}
+
+.container-3 {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #1abc9c;
+
+}
+.container-5 {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.copyright {
+    background-color: #1a252f;
+}
+#name{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#email{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#number{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#comment{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.img-fluid:hover {
+    max-width: 100%;
+    height: auto;
+    background-color: #1abc9c;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+}
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button;
+}
+
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+    cursor: pointer;
+}
+::-moz-focus-inner {
+    padding: 0;
+    border-style: none;
+}
+textarea {
+    resize: vertical;
+}
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-xl {
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    border-color: #fff;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+.free {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.boot {
+    color: #1abc9c;
+    background-attachment: fixed;
+    text-decoration: underline;
+}
+.portfolio-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+}
+.portfolio-item-caption:hover {
+    opacity: 1;
+}
+.portfolio-item-caption-content {
+    font-size: 1.5rem;
+}
+.portfolio-modal .btn-close {
+    color: #ce1919;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.modal-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto;
+}
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    color:#06090b;
+    border: 0;
+    border-radius: 0.5rem;
+    opacity: 1.5;
+}
+img{
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
